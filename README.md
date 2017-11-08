@@ -1,2 +1,2 @@
 # bhjain.github.io
-bhjain's blog for demonstrating projects
+Case study form for fraud detection using typing speed of email and passwords
