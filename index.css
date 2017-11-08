@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+}
+
+#main-container {
+    height: 100%;
+    margin: 0 !important;
+    background: #CFD8DC;
+}
+
+#main-container #form-container {
+    background: white;
+    max-width: 450px;
+    border-radius: 5px;
+}
+
+.ui.pointing.label {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#step-ribbon {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#checkmark {
+    font-size: 8em;
+    padding-top: 50px;
+    padding-left: 20px;
+}
