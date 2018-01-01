@@ -1,0 +1,26 @@
+.main-container {
+    padding-top: 50px;
+}
+
+div.ui.segment {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+i.glyphicon {
+    margin-top: 5px;
+    float: right;
+    font-size: 1.5em;
+}
+
+.glyphicon-ok {
+    color: green;
+}
+
+.glyphicon-remove {
+    color: red;
+}
+
+label {
+    font-size: 20px;
+}

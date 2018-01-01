@@ -1,1 +1,30 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="dist/semantic.min.css"><link rel="stylesheet" href="./index.css"><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src="dist/semantic.min.js"></script><title>Fraud Detection Case Study</title></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript">window.onload=function(){document.getElementById("email").onpaste=function(e){e.preventDefault()},document.getElementById("password").onpaste=function(e){e.preventDefault()}}</script><script type="text/javascript" src="/static/js/main.cd776128.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Server status</title>
+
+        <link rel="stylesheet" type="text/css" href="css/vendor/semantic.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+        <script src="js/vendor/semantic.min.js"></script>
+
+        <script src="js/index.js"></script>
+        <script src="directives/poller.directive.js"></script>
+    </head>
+    <body ng-app="myApp">
+        <div class="main-container">
+            <h2 class="ui center aligned header">Server Status</h2>
+            <div class="ui text container">
+                <div class="ui segments">
+                    <poller name="Smallcase" endpoint="http://ec2-52-66-119-178.ap-south-1.compute.amazonaws.com/stocks"></poller>
+                    <div class="ui segment">Content</div>
+                    <div class="ui segment">Content</div>
+                    <div class="ui segment">Content</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
